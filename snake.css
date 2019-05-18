@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+button{
+    font-family: futura;
+    border: 2px solid white;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+#button-div{
+text-align: center;
+}

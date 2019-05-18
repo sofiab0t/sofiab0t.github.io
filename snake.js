@@ -73,5 +73,7 @@ var changeDirection = function(direction) {
 var apple = CHUNK.randomLocation();
 var snake = [{ top: 1, left: 0, direction: "down" }, { top: 0, left: 0, direction: "down" }];
 
+
+
 CHUNK.executeNTimesPerSecond(advanceGame, 7);
 CHUNK.onArrowKey(changeDirection);
